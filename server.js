@@ -1,6 +1,7 @@
-// /======== Dependencies===================//
+//****************** */ Dependencies****************************//
 const inquirer = require("inquirer")
 const mysql = require("mysql2")
+
 
 const connection = mysql.createConnection({
     host: "localhost",
@@ -15,6 +16,8 @@ const connection = mysql.createConnection({
 connection.connect(function (err) {
     if (err) throw err
     console.log("Connected as Id" + connection.threadId)
+    console.log("_______  __   __  _______    _______  ______    _______  _______  ___   _  _______  ______\n|       ||  |_|  ||       |  |       ||    _ |  |   _   ||       ||   | | ||       ||    _ |\n|       ||       ||  _____|  |_     _||   | ||  |  |_|  ||       ||   |_| ||    ___||   | ||\n|       ||       || |_____     |   |  |   |_||_ |       ||       ||      _||   |___ |   |_||_ \n|      _||       ||_____  |    |   |  |    __  ||       ||      _||     |_ |    ___||    __  |\n|     |_ | ||_|| | _____| |    |   |  |   |  | ||   _   ||     |_ |    _  ||   |___ |   |  | |\n|_______||_|   |_||_______|    |___|  |___|  |_||__| |__||_______||___| |_||_______||___|  |_|\n\nVersion Almost\n");
+
     startPrompt();
 });
 // *******************Initial Prompt ************************//

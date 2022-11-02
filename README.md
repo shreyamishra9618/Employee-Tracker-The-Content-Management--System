@@ -10,8 +10,11 @@
 ## Description <br />
  Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. This project builds a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
+ Demo 
+ !["Click to view demo video”](./Assets/cms_tracker.gif)
+
  Demo video
- !["Click to view demo video”](./Assets/12-sql-homework-demo-01.png)
+ !["Click to view demo video”](./Assets/cms_tracker.mov)
 
 
  Design the database schema as shown in the following image:
